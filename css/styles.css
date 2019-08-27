@@ -23,3 +23,12 @@ label {
 button {
   margin-top: 20px;
 }
+
+.default {
+  font-style: italic;
+}
+
+#results {
+  margin-top: 20px;
+  font-weight: bold;
+}
