@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie Tickets</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Tickets</h1>
+
+    <!-- Movie Card 1 -->
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h2>Goonies</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie Card 2 -->
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h2>Lion King</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie Card 3 -->
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h2>Hobbs & Shaw</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <form id="ticket">
+        <div class="form-group">
+          <label for="movie-title">Select Movie:</label>
+          <select class="form-control" id="movie-title">
+            <option value="classic">Goonies</option>
+            <option value="first-run">Lion King</option>
+            <option value="first-run">Hobbs & Shaw</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="movie-time">Select Show Time:</label>
+          <select class="form-control" id="movie-time">
+            <option value="matinee">1:00 PM</option>
+            <option value="evening">7:00 PM</option>
+            <option value="evening">10:00 PM</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <select class="form-control" id="age">
+            <option value="junior">Junior</option>
+            <option value="adult">Adult</option>
+            <option value="senior">Senior</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quantity"># of Tickets:</label>
+          <select class="form-control" id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Purchase Now</button>
+      </form>
+    </div>
+  </div>
+</body>
